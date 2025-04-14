@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 APP_NAME = "med_advisor_app"
 USER_ID = "patient_001"
 SESSION_ID = "session_001"
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyCTideqqlYKr4s_qsKAW8rS3UBT-x2xdyc'  # Replace with your actual key
+os.environ['GOOGLE_API_KEY'] = 'your api key'  # Replace with your actual key
 
 # === Escalation Tool for Critical Symptoms (silent) ===
 def escalate_if_critical(query: str, tool_context: ToolContext) -> None:
